@@ -2446,3 +2446,22 @@ h3 {
   }
 
 }
+/* ALIGN CONTACT CARDS WITH FORM */
+
+.contact-grid {
+  align-items: stretch;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-card:last-of-type {
+  margin-top: auto;
+}
+
+.contact-form {
+  height: 100%;
+}
