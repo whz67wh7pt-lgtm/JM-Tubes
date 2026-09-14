@@ -2317,3 +2317,33 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   MATERIALS / REVIEWS FLOW FIX
+   ========================================================= */
+
+#materials {
+  border-bottom: 1px solid var(--border);
+}
+
+#materials .section-content {
+  order: 1;
+}
+
+#materials .materials-media {
+  order: 2;
+}
+
+#reviews {
+  background: var(--white);
+}
+
+@media (max-width: 760px) {
+  #materials .section-content {
+    order: 1;
+  }
+
+  #materials .materials-media {
+    order: 2;
+  }
+}
