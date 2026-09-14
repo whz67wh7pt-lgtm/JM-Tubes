@@ -684,21 +684,21 @@ h3 {
 
 .about-trust {
   display: flex;
-
   align-items: center;
   justify-content: center;
 
   width: 100%;
+
   min-height: 105px;
 
   padding: 14px 20px;
 
-  border: 1px solid var(--border);
-  border-radius: var(--radius-medium);
+  border-top: 1px solid var(--border);
 
   background: var(--white);
-}
 
+  text-align: center;
+}
 
 .about-trust img {
   display: block;
@@ -706,6 +706,8 @@ h3 {
   width: auto;
   max-width: 330px;
   max-height: 82px;
+
+  margin: 0 auto;
 
   object-fit: contain;
 }
