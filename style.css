@@ -359,120 +359,78 @@ h3 {
 
 .site-header {
   position: sticky;
-
   top: 0;
-
   z-index: 100;
 
   background: var(--primary);
 
-  border-bottom:
-    1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 
-  box-shadow:
-    0 1px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
 }
-
 
 .header-inner {
   display: flex;
-
   align-items: center;
-
-  min-height: 68px;
+  min-height: 82px;
 }
-
 
 .brand {
   display: inline-flex;
-
   align-items: center;
-
   margin-right: auto;
 }
 
-
 .brand-logo {
   display: block;
-
   width: auto;
-
-  max-width: 270px;
-  max-height: 54px;
-
+  max-width: 340px;
+  max-height: 68px;
   object-fit: contain;
 }
 
-
 .main-nav {
   display: flex;
-
   align-items: center;
-
   gap: 26px;
 }
 
-
 .main-nav a {
-  color:
-    rgba(255, 255, 255, 0.94);
-
+  color: rgba(255, 255, 255, 0.94);
   font-size: 0.88rem;
-
   font-weight: 620;
 }
-
 
 .main-nav a:hover {
   color: var(--white);
 }
 
-
 .header-phone {
   margin-left: 26px;
-
   padding-left: 26px;
-
-  border-left:
-    1px solid rgba(255, 255, 255, 0.30);
-
+  border-left: 1px solid rgba(255, 255, 255, 0.30);
   color: var(--white);
-
   font-size: 0.88rem;
-
   font-weight: 750;
 }
 
-
 .menu-toggle {
   display: none;
-
   width: 42px;
   height: 42px;
-
   padding: 9px;
-
   border: 0;
-
   background: transparent;
-
   cursor: pointer;
 }
 
-
 .menu-toggle span {
   display: block;
-
   width: 22px;
   height: 2px;
-
   margin: 5px auto;
-
   background: var(--white);
-
-  transition:
-    transform 0.2s ease,
-    opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 
